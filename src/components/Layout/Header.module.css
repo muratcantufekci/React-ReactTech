@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6fcf5;
+  padding: 0 4.8rem;
+}
+
+.h1 {
+  font-size: 3.6rem;
+  color: #333;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.nav-list-link:link,
+.nav-list-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.nav-list-link:hover,
+.nav-list-link:active {
+  color: #fcc2d7;
+}

@@ -1,0 +1,30 @@
+.section {
+  padding: 4.8rem 0;
+}
+
+.container {
+  max-width: 130rem;
+  height: 4rem;
+  margin: 3rem auto;
+  padding: 0 3.2rem;
+
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h2 {
+  font-size: 3.6rem;
+  color: #333;
+}
+
+.grid {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 6rem;
+  padding: 3.6rem 9.6rem 0 9.6rem;
+  margin: 0 auto;
+  background-color: #ebfbee;
+}

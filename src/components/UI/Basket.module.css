@@ -1,0 +1,22 @@
+.basket {
+  max-width: 40rem;
+  padding: 3rem;
+  background-color: #fff;
+  position: absolute;
+  right: 1rem;
+  top: 10rem;
+
+  background-color: #fcc2d7;
+  border-radius: 1rem;
+  z-index: 10;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  max-height: 75vh;
+}
+
+.totalPrice {
+  margin-top: 3.6rem;
+  font-size: 1.8rem;
+  color: #222;
+  display: inline-block;
+}
