@@ -11,17 +11,17 @@ const Header = () => {
         <nav>
           <ul className={classes["nav-list"]}>
             <li>
-              <a className={classes["nav-list-link"]} href="#/">
+              <a className={classes["nav-list-link"]} href="#laptops">
                 Laptop
               </a>
             </li>
             <li>
-              <a className={classes["nav-list-link"]} href="#/">
+              <a className={classes["nav-list-link"]} href="#tablets">
                 Tablet
               </a>
             </li>
             <li>
-              <a className={classes["nav-list-link"]} href="#/">
+              <a className={classes["nav-list-link"]} href="#mobile">
                 Mobile Phone
               </a>
             </li>

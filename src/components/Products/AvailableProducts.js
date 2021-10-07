@@ -59,21 +59,21 @@ const AvailableProducts = () => {
 
   return (
     <React.Fragment>
-      <section className={classes.section}>
+      <section id="laptops" className={classes.section}>
         <div className={classes.container}>
           <h2 className={classes.h2}>Laptops</h2>
         </div>
         <div className={classes.grid}>{laptopList}</div>
       </section>
 
-      <section className={classes.section}>
+      <section id="mobile" className={classes.section}>
         <div className={classes.container}>
           <h2 className={classes.h2}>Phones</h2>
         </div>
         <div className={classes.grid}>{phoneList}</div>
       </section>
 
-      <section className={classes.section}>
+      <section id="tablets" className={classes.section}>
         <div className={classes.container}>
           <h2 className={classes.h2}>Tablets</h2>
         </div>
